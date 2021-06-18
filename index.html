@@ -1,0 +1,644 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>DataCenter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Data,data,Center,center,DATACENTER,Datacenter,DataCenter,Top of rack, end of row , fat tree,3-tier  architure,find fat tree,top datacenter,top 10 datacenter,best datacenter">
+    <meta name="description" content="Datacenter, Find the fattree,Toplogies of Datacenter,Top 10 Datacenter">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <style type="text/css">
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 0px solid;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+
+
+      .label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-flex;
+  
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  ;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+}
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+    </style>
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="preloader" id="loader"></div>
+  <div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-6 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="h2 mb-0">Data<span class="text-danger">Center</span></a></h1>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                
+                  <li><a href="#about-section" class="nav-link">About</a></li>
+                
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+
+  
+     
+    <div class="site-blocks-cover overlay" style="background-image: url(images/main.jpg);" data-aos="fade" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          
+          <div class="col-md-8 mt-lg-5 text-left">
+            <h1 class="text-uppercase text-danger" data-aos="fade-up">DataCenter</h1>
+            <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Effortlessly manages all your information.</p> 
+          </div>
+            
+        </div>
+      </div>
+
+    
+    </div>  
+
+    
+    <div class="site-section cta-big-image" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3 text-danger mt-4">What Is Data Center</h2>
+          </div>
+        </div>
+        <div class="row border-bottom border-danger row no-gutter">
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+    
+        
+              <img class="img-fluid" src="images/datacenter.svg" alt="data center" style="height:300px">
+            </a>
+          </div>
+          
+          <div class="col-lg-6 ml-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <h3 class="h3 mb-4 text-black ">About DataCenter</h3>
+              <p>A Datacenter are specially design structure that are created to hold the
+                thousand’s of machine. At its simplest, a data center is a physical or virtual infrastructure facility 
+                that organizations use to house their critical applications and data. A data
+                center's design is based on a network of computing and storage resources
+                that enable the delivery of shared applications and data.</p>
+              <div id="datacenter" class="collapse">
+                Data centers provide a range on information technology services.
+                  Data centers have unique and typically large power requirements.
+                  Data centers are designed to house information systems and related components such as:
+Servers,
+Routers,
+Storage,
+Cooling Units,
+Power Distribution Unit(PDU),
+Uninterruptable Power supplies(UPS).<br><br>
+  We need data centers because they provide complete control over security programs and entites , no limitations over bandwidth, worry free response time,Lost-Cost bandwidth and sql storage in comparison to cloud hosting and it also provides high-level security.
+                </div>
+              <button type="button" class="btn btn-danger rm" data-toggle="collapse" data-target="#datacenter">Read More</button>
+              
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="container">
+        <div class="row mb-5 pt-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3 text-danger">Services</h2>
+          </div>
+        </div>
+        <div class="row rowsetting border-bottom border-danger text-center  ">
+          <div class="col-log-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="imgsetting d-block m-auto bg-danger"> <i class="fa fa-envelope fa-3x text-white" style="padding-top: 20px;"></i>
+              
+            </div>
+            <h2 class="pt-2 pb-5  ">Email</h2>
+          </div>
+          <div class="col-log-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="imgsetting d-block m-auto bg-danger"> <i class="fa fa-laptop fa-3x text-white" style="padding-top: 20px;"></i>
+              
+            </div>
+            <h2 class="pt-2 pb-5  ">Web Hosting</h2>
+          </div>
+          <div class="col-log-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+            <div class="imgsetting d-block m-auto bg-danger"> <i class="fa fa-database fa-3x text-white" style="padding-top: 20px;"></i>
+              
+            </div>
+            <h2 class="pt-2 pb-5  ">Datastorage and management</h2>
+          </div>
+          
+      </div>
+      </div>  
+      <div class="container">
+        <div class="row ">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3 text-danger mt-4">Topology</h2>
+          </div>
+        </div>
+        <div class="row border-bottom border-white row ">
+          <h4 class="mb-5 ml-2">Data center topology refers to the general construction of a data
+            center. The types of layout and related technologies help to
+            address the need of a data center in handling business intelligence
+            as a central repository. <br>
+            <br>Now Lets see the topology of data center:-   </h4>
+          <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+            <a href="images/3tier.png" class="item-wrap fancybox">
+        
+              <img class="img-fluid" src="images/3tier.png" alt="3-tier" style="height:300px">
+            </a>
+          </div>
+          
+          <div class="col-lg-6 ml-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <h3 class="h3 mb-4 text-black ">Three-tier Data Center</h3>
+              <p>A Tier 3 data center is a location with redundant and dual-powered servers, storage, network links and other IT components. It is one of the most commonly used data center tiers, where IT components are powered with multiple, active and independent sources of power and cooling resources.
+  A Tier 3 data center is also known as a Level 3 data center.
+  The Three Layers are :- 
+  1) Core
+  2)Aggregation
+  3)Access<div id="3tier" class="collapse">
+                Core Layer:-  It is also referred to as the network backbone, this layer is responsible for transporting large amounts of traffic quickly. The core layer provides interconnectivity between distribution layer devices it usually consists of high speed devices, like high end routers and switches with redundant links.<br><br>
+  Aggregation Layer:- It serves as the communication point between the access layer and the core. Its primary functions are to provide routing, filtering, and WAN access and to determine how packets can access the core. This layer also  determines the fastest way that network service requests are accessed say  for example, how a file request is forwarded to a server  and, if necessary, forwards the request to the core layer. This layer usually consists of routers and multilayer switches.<br><br>
+    Access Layer:- It controls user and workgroup access to the resources on the network. This layer usually incorporates Layer 2 switches and access points that provide connectivity between workstations and servers. we can manage access control and policy, create separate collision domains, and implement port security at this layer.
+ </div>
+              <button type="button" class="btn btn-danger rm" data-toggle="collapse" data-target="#3tier">Read More</button>
+              
+            </div>
+          </div>
+        </div>
+        <div class="row border-bottom border-danger row mt-5">
+          <div class="col-lg-6 mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="">
+            <a href="images/fattree.png" class="item-wrap fancybox">
+        
+              <img class="img-fluid" src="images/fattree.png" alt="fat-tree" style="height:300px">
+            </a>
+          </div>
+          
+          <div class="col-lg-6 ml-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <h3 class="h3 mb-4 text-black ">Fat Tree Data Center</h3>
+              <p>Fat tree network topology looks like a tree topology like shown in figure .  This is mainly used to connect a large number of physical servers/computers in a large data center.
+                <div id="fattree" class="collapse">
+                 Below is an example of 3 layer Fat tree topology. The top layer (level-0) of switches is called Core layer. The second layer of switches is called Aggregation layer. And the third layer of switches is called Edge layer. The number of ports in each switch is same.
+                <br>
+                Now let's construct a Fat tree network.
+The information that we need is the number of ports present in each switch. Let k be the number of ports that each switch contains. Switches with k number of ports in a Fat tree topology is called  k-port Fat tree network topology.
+From the value of k, we are going to derive the number of core switches, aggregation switches, edge switches and the maximum number of servers that can be attached.
+A set of (k/2) number of aggregation switches and (k/2) number of edge switches are combined together and that is known as a Pod.<br> click calculate for calculating number of core switch, aggrregation switch, access switch and maximum number of servers .
+
+              </div>
+              <div id="calc" class="collapse">
+                <div class="row form-group">
+                  <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="font-weight-bold">K = Number of POD(Point Of Delivery)</p>
+                    <input type="number" id="k" class="form-control" onkeyup="sum()" placeholder="Enter Value of K" required>
+</div>
+
+  
+  <script>
+     function sum()
+     {
+
+        var number1 = document.getElementById('k').value;
+
+        
+        if (number1 =='')
+        {
+          number1=0
+        }
+           var num3 = parseInt(number1) ;
+           a=num3/2;
+           b=Math.ceil(a)
+           c=Math.pow(b, 2);
+           d=Math.pow(num3,3);
+           e=d/4;
+           f=Math.ceil(e)
+           
+           document.getElementById('core').innerHTML = c+' Core Switch';
+           document.getElementById('agg').innerHTML = b+' Aggeration Switch';
+           document.getElementById('edge').innerHTML = b+' Edge Switch';
+           document.getElementById('d1').innerHTML = 'Now each aggeration switch should connected with (k/2)='+b+' core switch and (k/2)='+b+' edge Switch';
+           document.getElementById('d2').innerHTML = 'Now each edge switch is connected with (k/2)='+b+' server and (k/2)='+b+' aggeration Switch';
+           document.getElementById('servers').innerHTML = 'Maximum server can be connecter is (k^3)/4='+f;
+          
+
+     }
+  </script>
+                  </div>
+                
+                  <p id="core"></p>
+                  <p id="agg"></p>
+                  <p id="edge"></p>
+                  <p id="d1"></p>
+                  <p id="d2"></p>
+                  <p id="servers"></p>
+              </div>
+              <button type="button" class="btn btn-danger rm mb-4 " data-toggle="collapse" data-target="#fattree">Read More</button>
+              <button type="button" class="btn btn-danger rm mb-4" data-toggle="collapse" data-target="#calc">Calculate</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+    <div class="container">
+      <div class="row ">
+        <div class="col-12 text-center" data-aos="fade">
+          <h2 class="section-title mb-3 text-danger mt-4">Infrastructure Designs For Data Center</h2>
+        </div>
+      </div>
+      <div class=" row border-bottom border-white row  ">
+        <h4 class="mb-5 ml-2">By recognizing the value of the data center infrastructure and its components, we can ensure that employees and customers have access to the servers, storage systems, and networking devices they need to carry out daily business transactions and remain productive. <br><br>Top of Rack (ToR) and End of Row (EoR) are now the common infrastructure designs for data centers.</h4>
+        <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+          <a href="images/tor.png" class="item-wrap fancybox">
+      
+            <img class="img-fluid" src="images/tor.png" alt="Top-of-Rack" style="height:300px">
+          </a>
+        </div>
+        
+        <div class="col-lg-6 ml-0" data-aos="fade-up" data-aos-delay="100">
+          <div class="mb-4">
+            <h3 class="h3 mb-4 text-black ">Top Of Rack</h3>
+            <p>The name itself suggest the placement of network
+access switch. Means it is placed on the top of Rack.In this the server is also in the same rack and directly
+connected to the switch. Then after that all the switch is connected to
+aggregation switch. <div id="tor" class="collapse">
+           Benefits of TOR:-
+            <br><br>The main benefits of the Top-of-Rack approach is that
+the cable cost is too much less. As it is connected to
+the switch in the same rack.
+The cable management is easy and cable technician
+can easily change the cable if there is fault. Technicians can also add or remove cables in a simpler way.<br><br>
+Limitations of TOR:-
+<br><br>For ToR, although the cables are reduced, the number
+of racks is still increased. The management of
+switches may be a little tricky. ToR approach takes up
+more rack space for the installation of switches.
+
+
+             
+            </div>
+            <button type="button" class="btn btn-danger rm" data-toggle="collapse" data-target="#tor">Read More</button>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row border-bottom border-danger mt-5 ">
+        <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+          <a href="images/eor.png" class="item-wrap fancybox">
+      
+            <img class="img-fluid" src="images/eor.png" alt="End-of-Row" style="height:300px">
+          </a>
+        </div>
+        
+        <div class="col-lg-6 ml-0" data-aos="fade-up" data-aos-delay="100">
+          <div class="mb-4">
+            <h3 class="h3 mb-4 text-black ">End Of Row</h3>
+            <p>The name itself suggest the placement of network
+access switch. Means it is placed on the End of Row.In this the server and switch both are in different rack.
+By this there is better port utilization. <div id="eor" class="collapse">
+             Benefits of EOR:-
+            <br><br>In the EoR, device count is decreased because not every rack should equip the switches. Thus, less rack space is required in the architecture. With less Number of devices in data center, there will be less requirements for the cooling system and this will also reduces the using of electricity power.<br><br>
+Limitations of Eor:-
+<br><br>Its Layer 2 traffic efficiency is lower than the ToR.
+Because when two servers in the same rack and
+VLAN (virtual local area network) need to talk to each
+other, the traffic will go to the aggregation switch first
+before comes back. As less switches are used in EoR
+design, more cables are deployed between racks
+triggering higher possibility of cable mess. Skillful
+technicians are required when carrying out the cable
+management.
+More cable is required. It is difficult for cable
+technician.
+If some cable is damaged then it is difficult to change
+it
+
+             </div>
+            <button type="button" class="btn btn-danger rm" data-toggle="collapse" data-target="#eor">Read More</button>
+            
+          </div>
+        </div>
+      </div>
+      
+        
+</div>
+    <div class="container ">
+      <div class="row mb-5 pt-5 ">
+        <div class="col-12 text-center" data-aos="fade">
+          <h2 class="section-title mb-3 text-danger">ToR vs EoR</h2>
+        </div>
+      </div>
+      <div class="table-responsive table-bordered  table-borderless border-danger  ">          
+        <table>
+          <tr class=" comp bg-danger text-black">
+            
+            <th>Top of Rack</th>
+            <th>End of Row</th>
+          </tr>
+          <tr class="bg-light">
+           
+            <td>In this the switch is placed on top of rack</td>
+            <td>In this the switch  is placed in end of row</td>
+          </tr>
+          <tr>
+         
+            <td>Server and switch is placed on same rack</td>
+            <td>Server and switch is placed in different switch </td>
+          </tr>
+          <tr class="bg-light">
+           
+            <td>There is less cable required so the cost is less</td>
+            <td>The cable requirement is more so the cost is more</td>
+          </tr>
+          <tr>
+           
+            <td>If there is need to change the cable it is easy</td>
+            <td>If there is need to change the cable then it is difficult</td>
+          </tr>
+          <tr class="bg-light">
+          
+            <td>Cable Management is easy</td>
+            <td>Cable management is difficult</td>
+          </tr>
+          <tr>
+            <td>3-Tier Design</td>
+            <td>2-Tier Design</td>
+          </tr>
+          <tr class="bg-light">
+          
+            <td>It is less complicated</td>
+            <td>It is more complicated</td>
+          </tr>
+          <tr >
+            <td>Port Usage is more</td>
+            <td>Port usage is less</td>
+          </tr>
+        </table>
+        
+        </div>
+    </div>
+
+    <div class="container ">
+      <div class="row mb-5 pt-5 ">
+        <div class="col-12 text-center" data-aos="fade">
+          <h2 class="section-title mb-3 text-danger">Top 10 Datacenter</h2>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="grid hello">
+          <div><a href="https://cloud.google.com/pricing" target="_blank"><img src="images/google.png" alt="google"></a></div>
+          <div><a href="https://aws.amazon.com/pricing/" target="_blank"><img src="images/aws.png" alt="Amazon Web Services"></a></div>
+          <div><a href="https://www.digitalrealty.com/partners"  target="_blank"><img src="images/digitalrealty.png" alt="Digital Realty"></a></div>
+          <div><a href="https://www.equinix.com/" target="_blank"><img src="images/Equinix.png" alt="Equinix"></a></div>
+          <div><a href="https://azure.microsoft.com/en-in/services/" target="_blank"><img src="images/microsoft.png" alt="Microsoft"></a></div>
+          <div><a href="https://www.datacenters.com/providers/apple-inc" target="_blank"><img src="images/apple.png" alt="Apple"></a></div>
+          <div><a href="https://www.chinatelecomglobal.com/products/index/" target="_blank"><img src="images/chinatelecom.png" alt="China Telecom"></a></div>
+          <div><a href="https://www.chinaunicomglobal.com/hk/productslist" target="_blank"><img src="images/Chinaunicom.png" alt="China Unicom"></a></div>
+          <div><a href="https://www.ibm.com/in-en/products" target="_blank"><img src="images/ibm.png" alt="IBM"></a></div>
+          <div><a href="https://www.ntt.com/en/services/data-center.html"  target="_blank"><img src="images/ntt.png" alt="NTT Telecom"></a></div>
+        </div>
+        </div>
+    
+    
+    <section class="site-section pt-0 " id="team-section">
+      <div class="container border-bottom border-danger border-top mt-5">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2 class="section-title mb-3 text-danger mt-4">Team</h2>
+            
+          </div>
+        </div>
+        <div class="row ">
+          
+
+          <div class="col-xs-4 col-sm-4 col-md-4" data-aos="fade-up" data-aos-delay="">
+            <div class="team-member">
+             
+              <div class="p-3">
+                <h3>Krina Darji</h3>
+                <span class="position">18DCS017</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-sm-4 col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+                           <div class="p-3">
+                <h3>Malav Padhya</h3>
+                <span class="position">18DCS056</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-sm-4 col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="p-3">
+                <h3>Nihar Soni</h3>
+                <span class="position">D19DCS152</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="site-section" id="contact-section" data-aos="fade">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3 text-danger">Contact Us</h2>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-md-4 mb-3 text-center">
+            <p class="mb-0 contactus">
+              <span class="icon-mail_outline d-block h4 text-danger"></span>
+                <a href="mailto:18dcs017@charusat.edu.in" class="text-danger">18dcs017@charusat.edu.in</a>
+            </p>
+          </div>
+          <div class="col-md-4 mb-3 text-center">
+            <p class="mb-0 contactus">
+              <span class="icon-mail_outline d-block h4 text-danger"></span>
+                <a href="mailto:18dcs056@charusat.edu.in" class="text-danger">18dcs056@charusat.edu.in</a>
+            </p>
+          </div>
+          <div class="col-md-4 mb-3 text-center">
+            <p class="mb-0 contactus">
+              <span class="icon-mail_outline d-block h4 text-danger"></span>
+                <a href="mailto:d19dcs152@charusat.edu.in" class="text-danger">d19dcs152@charusat.edu.in</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 mb-5">
+
+            
+
+            <form action="#" class="p-5">
+              
+              <h2 class="h4 text-danger mb-5">Contact Form</h2> 
+
+              <div class="row form-group">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <label class="text-black" for="fname">First Name</label>
+                  <input type="text" id="fname" class="form-control" placeholder="First Name" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="text-black" for="lname">Last Name</label>
+                  <input type="text" id="lname" class="form-control" placeholder="Last Name" required>
+                </div>
+              </div>
+
+              <div class="row form-group">
+                
+                <div class="col-md-12">
+                  <label class="text-black" for="email">Email</label> 
+                  <input type="email" id="email1" class="form-control" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <label class="text-black" for="message">Message</label> 
+                  <textarea name="message" id="message" cols="30" rows="7" required class="form-control" placeholder="Your Message "required></textarea>
+                </div>
+              </div>
+              <div class="row form-group">
+                <div class="col-md-12">
+                  <input type="submit" value="Send Message" class="btn btn-danger btn-md text-white">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="site-footer p-0 pb-5">
+
+      <div class="text-center">
+            <input type="checkbox" class="checkbox" id="darkSwitch" style="display: none;" />
+            <label class="label mt-5" for="darkSwitch">
+              <i class="icon-moon-o" style="color: #F4F1C9;"></i>
+              <i class="icon-sun-o" style="color: #F28C38;"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
+        </div>
+    </footer>
+  </div> 
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+ <script src="js/dark-mode-switch.js"></script>
+  <script src="js/dark-mode-switch.min.js"></script>
+  <script src="js/main.js"></script>
+  <script type="text/javascript">
+      $(document).on('change',"#email1", function(){
+    
+    var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    var inputText=$('#email1').val();
+    if(mailformat.test(inputText))
+    {
+    alert("You have entered a valid email address!");    //The pop up alert for a valid email address
+    $('#email1').focus();
+    return true;
+    }
+    else
+      {
+    alert("You have entered an invalid email address!");    //The pop up alert for an invalid email address
+    $('#email1').focus();
+    return false;
+      }
+    });
+    </script>
+    <script>
+      var number = document.getElementById('k');
+
+// Listen for input event on numInput.
+number.onkeydown = function(e) {
+    if(!((e.keyCode > 95 && e.keyCode < 106)
+      || (e.keyCode > 47 && e.keyCode < 58) 
+      || e.keyCode == 8)) {
+        return false;
+    }
+}
+    </script>
+  
+  </body>
+</html>
